@@ -8,3 +8,17 @@ understanding of the data, it provides recommendations for the next steps.
 
 https://archive.ics.uci.edu/dataset/222/bank+marketing
 
+## Finding
+
+Given all the models, looks like DecisionTree is the best model. It is easy to interpret the results by looking
+at the output of the tree and you can tell which features are used for predicting the outcome. Based on the DT
+tree visualation, the following features can better predict the campaign outcomes:
+
+- social and  economic attributes
+- number of contacts performed by the campaign
+- number of days that passed by after the client was last contacted
+- contact type
+- marital status
+
+The other models, including LogisticRegression, KNN, SVC and Stochastic Gradient Descent all performs similarily.
+KNN and LogisticRegression take less time compared to SVC and SGD. It is hard to see feature is more important for SVC and SGD.
